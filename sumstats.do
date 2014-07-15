@@ -1,6 +1,7 @@
 * Calculate some summary statistics for auto.dta.
 
 version 10
+<<<<<<< HEAD
 
 set more off
 
@@ -22,4 +23,9 @@ bys foreign: summarize price
 tabstat mpg, by(foreign)
 reg foreign weight
 
-* Adding yet another comment, but there might be issues. Ay ya wei shen me?!?!?!?!
+=======
+forv n = 1/10000000 {
+	nicewords, smiley
+	sleep 1000
+}
+>>>>>>> 5bae15a6bbcc4be126f987cefbefcdcbc07a728b
