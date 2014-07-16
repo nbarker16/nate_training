@@ -1,6 +1,6 @@
 * Calculate some summary statistics for auto.dta.
 
-* It's necessary to offer further introductory info here
+* Mucho informacion 
 
 version 10
 * FIXING THE NAME
