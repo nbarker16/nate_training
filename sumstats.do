@@ -1,6 +1,7 @@
 * Calculate some summary statistics for auto.dta.
 
 * It's necessary to offer further introductory info here
+* Now, I will also create a new branch.
 
 version 10
 * FIXING THE NAME
