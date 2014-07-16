@@ -6,6 +6,9 @@
 version 10
 * FIXING THE NAME
 
+
+**** MOAR COMMENTS NIEDED **** 
+
 set more off
 
 sysuse auto, clear
