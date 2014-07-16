@@ -26,6 +26,8 @@ tabulate weight if price > 10000
 assert inlist(foreign, 0, 1)
 bys foreign: summarize price
 
+tab mpg if foreign==0
+
 tabstat mpg, by(foreign)
 reg foreign weight
 
