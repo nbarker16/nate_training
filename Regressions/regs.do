@@ -21,3 +21,5 @@ corr mpg weight
 *Changing controls and re-running regression
 local controls2 gear_ratio displacement
 regress price mpg `controls2'
+
+di "Que bueno!"
