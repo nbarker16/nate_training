@@ -24,7 +24,7 @@ tabstat mpg, by(foreign)
 reg foreign weight
 
 /*
-* This code is horrible, and ruins everything
+* This code is wonderful, and should be saved for a special event
 =======
 forv n = 1/10000000 {
 	nicewords, smiley
