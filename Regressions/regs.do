@@ -22,4 +22,11 @@ corr mpg weight
 local controls2 gear_ratio displacement
 regress price mpg `controls2'
 
-di "Que bueno!"
+forv n = 1/100000{
+	di "Que bueno!"
+	sleep 1000
+	di "Eres increible!"
+	sleep 1000
+	di "poop"
+	sleep 1000
+}
