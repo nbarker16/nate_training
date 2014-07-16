@@ -1,9 +1,13 @@
 * Calculate some summary statistics for auto.dta.
 
 * It's necessary to offer further introductory info here
+* Now, I will also create a new branch.
 
 version 10
 * FIXING THE NAME
+
+
+**** MOAR COMMENTS NIEDED **** 
 
 set more off
 
@@ -21,6 +25,8 @@ tabulate weight if price > 10000
 
 assert inlist(foreign, 0, 1)
 bys foreign: summarize price
+
+tab mpg if foreign==0
 
 tabstat mpg, by(foreign)
 reg foreign weight
